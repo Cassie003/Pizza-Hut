@@ -36,3 +36,21 @@ Pizza.prototype.setQuantity = function (quantity) {
     this.calculateTotal();
 };
 
+// calculate pizza total
+Pizza.prototype.calculateTotal = function () {
+    const toppingPrice = 50;
+
+    if (this.size) {
+        this.price = this.size.price;
+    }
+
+    if (this.crust) {
+        this.price = this.price + this.crust.price;
+    }
+
+    // add the price of toppings
+    this.price += this.toppings.length * toppingPrice;
+
+    this.price *= this.quantity;
+};
+
