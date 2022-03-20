@@ -85,3 +85,18 @@ a:hover{
     font-size: 15px;
     text-transform: capitalize;
   }
+
+/* footer */
+footer {
+    background-color: #323232;
+    color: white;
+  }
+  
+  footer h4 {
+    text-transform: uppercase;
+    font-size: 1em;
+  }
+  
+  footer p {
+    line-height: 1.3em;
+  }
