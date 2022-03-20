@@ -71,3 +71,19 @@ const pizzaSizes = [
     },
 ];
 
+// pizza crusts
+const pizzaCrusts = [
+    {
+        name: "crispy",
+        price: 200,
+    },
+    {
+        name: "stuffed",
+        price: 150,
+    },
+    {
+        name: "Glutten free",
+        price: 180,
+    },
+];
+
