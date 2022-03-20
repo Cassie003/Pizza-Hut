@@ -86,4 +86,16 @@ const pizzaCrusts = [
         price: 180,
     },
 ];
+//toppings
+const pizzaToppings = ["Mushrooms", "Pineapple", "Bacon"];
+
+const pizzas = [
+    { name: "Chicken Tikka" },
+    { name: "PeriPeri Pizza" },
+    { name: "Raspberry Dessert Pizza" },
+    { name: "Chicken Alfredo Pizza" },
+    { name: "Sunchoke Pizza" },
+    { name: "Buffalo Chicken Sticks" },
+];
+
 
