@@ -77,3 +77,11 @@ a:hover{
     flex-direction: row;
     justify-content: center;
 }
+.text-bold {
+    font-weight: bold;
+  }
+  
+  tbody {
+    font-size: 15px;
+    text-transform: capitalize;
+  }
