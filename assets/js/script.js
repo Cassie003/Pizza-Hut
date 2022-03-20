@@ -54,3 +54,20 @@ Pizza.prototype.calculateTotal = function () {
     this.price *= this.quantity;
 };
 
+
+// pizza sizes
+const pizzaSizes = [
+    {
+        size: "small",
+        price: 600,
+    },
+    {
+        size: "medium",
+        price: 800,
+    },
+    {
+        size: "large",
+        price: 1200,
+    },
+];
+
