@@ -31,3 +31,27 @@ a:hover{
     color: #35e888;
     text-decoration: none;
 }
+#img{
+    transition: ease-in-out 0.3s;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top:0%;
+    padding-left:35pc ;
+    color:#040404;
+
+
+}
+#img h2{
+    font-size: 24px;
+    color:#040404;
+}
+#piz{
+    color: #35e888;
+    font-size: 84px;
+    position: relative;
+    display: flex;
+    padding-top:30%;
+    padding-left:30pc ;
+
+}
