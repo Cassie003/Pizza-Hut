@@ -29,3 +29,10 @@ Pizza.prototype.setTopings = function (toppings) {
     this.toppings = toppings;
     this.calculateTotal();
 };
+
+//set quantity
+Pizza.prototype.setQuantity = function (quantity) {
+    this.quantity = +quantity;
+    this.calculateTotal();
+};
+
